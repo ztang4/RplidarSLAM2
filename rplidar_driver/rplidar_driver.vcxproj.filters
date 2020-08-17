@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{2040961f-91d4-4c80-813a-89d1354e4925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\src">
+      <UniqueIdentifier>{7f12e3b6-31b8-4f20-addc-07a001c991a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\include">
+      <UniqueIdentifier>{7079dac8-3d78-4b53-95b2-209b9bb67d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\src\hal">
+      <UniqueIdentifier>{2caab7e2-b245-4e89-8dc6-ca72dc30da22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\src\arch">
+      <UniqueIdentifier>{149ef348-ed07-4b17-b54f-2e45936b78f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\src\arch\win32">
+      <UniqueIdentifier>{7136bd33-bbb1-44d3-89ad-df93ab1521ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sdk\include\rplidar.h">
+      <Filter>sdk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\include\rplidar_cmd.h">
+      <Filter>sdk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\include\rplidar_driver.h">
+      <Filter>sdk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\include\rplidar_protocol.h">
+      <Filter>sdk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\include\rptypes.h">
+      <Filter>sdk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\rplidar_driver_impl.h">
+      <Filter>sdk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\rplidar_driver_serial.h">
+      <Filter>sdk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\rplidar_driver_TCP.h">
+      <Filter>sdk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\sdkcommon.h">
+      <Filter>sdk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\arch\win32\arch_win32.h">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\arch\win32\net_serial.h">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\arch\win32\timer.h">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\arch\win32\winthread.hpp">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\hal\abs_rxtx.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\hal\assert.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\hal\byteops.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\hal\event.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\hal\locker.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\hal\socket.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\hal\thread.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\hal\types.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\src\hal\util.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\sdk\src\rplidar_driver.cpp">
+      <Filter>sdk\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\src\arch\win32\net_serial.cpp">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\src\arch\win32\net_socket.cpp">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\src\arch\win32\timer.cpp">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\src\hal\thread.cpp">
+      <Filter>sdk\src\hal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
